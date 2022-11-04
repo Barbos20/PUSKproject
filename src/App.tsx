@@ -5,6 +5,9 @@ import { FirstPage } from "./2FirstPage/firstPage";
 import { Pusk } from "./3Pusk/pusk";
 import { Invest } from "./4Invest/invest";
 import { DontFind } from "./5DontFind/dontFind";
+import { MakeWallet } from "./6MakeWallet/makeWallet";
+import { Plugins } from "./7Plagins/plugins";
+import { Form } from "./8Form/form";
 
 function App() {
   const Container = styled.div`
@@ -24,6 +27,9 @@ function App() {
       <Pusk/>
       <Invest/>
       <DontFind/>
+      <MakeWallet/>
+      <Plugins/>
+      <Form/>
     </Container>
   );
 }
