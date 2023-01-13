@@ -40,6 +40,8 @@ export const BoxForm = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
   border: 2px solid #40ffe4;
   height: 490px;
   width: 495px;
