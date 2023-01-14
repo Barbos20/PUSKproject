@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Team } from "./10StrongTeam/team";
 import { RoadMap } from "./11RoadMap/roadMap";
 import { Princeples } from "./12Princeples/princeples";
+import { Contacts } from "./13Contacts/contacts";
+import { Footer } from "./14Footer/footer";
 import { Head } from "./1Head/head";
 import { FirstPage } from "./2FirstPage/firstPage";
 import { Pusk } from "./3Pusk/pusk";
@@ -38,6 +40,8 @@ function App() {
       <Team/>
       <RoadMap/>
       <Princeples/>
+      <Contacts/>
+      <Footer/>
     </Container>
   );
 }
